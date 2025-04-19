@@ -17,8 +17,7 @@ console.log(indexOfJ);
 const string2 = "ABCDEFGHJKLO";
 
 // Your code here...
-const result = string2[0] + string2[1] + string2[1] + string2[10];
-console.log(result);
+const result = string2[2] + string2[11] + string2[11] + string2[10];
 
 /*****************************************************
     Iteration 3 | Repeat a String and Concatenate
@@ -28,6 +27,7 @@ console.log(result);
 const string3 = "Na";
 
 // Your code here...
+const nananana = string3.repeat(4) + " " + "BATMAN!";
 const Repeat = string3.repeat(4) + " Batman!";
 console.log(result);
 
@@ -40,6 +40,8 @@ const fruit =
   "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
 // Your code here...
+const favoriteFruit = fruit.slice(37, 41);
+console.log(favoriteFruit);
 
 /***************************************************
     Iteration 5 | Check If Strings Include a Word
@@ -53,9 +55,19 @@ const funnyHeadline2 = "Students Cook & Serve Grandparents";
 
 // Check the first headline
 // Your code here ...
+if (funnyHeadline1.includes("oxygen")) {
+  console.log("The string includes the word 'oxygen'");
+} else {
+  console.log("The string does not include the word 'oxygen'");
+}
 
 // Check the second headline
 // Your code here ...
+if (funnyHeadline2.includes("oxygen")) {
+  console.log("The string includes the word 'oxygen'");
+} else {
+  console.log("The string does not include the word 'oxygen'");
+}
 
 /*******************************************
        Iteration 6 | String Length
@@ -66,6 +78,8 @@ const string4 = "zEAWrTC9EgtxmK9w1";
 
 // a) Print the string length
 // Your code here ...
+console.log(string4.length);
 
 // b) Print the last character in the string
 // Your code here ...
+console.log(string4[string4.length - 1]);
